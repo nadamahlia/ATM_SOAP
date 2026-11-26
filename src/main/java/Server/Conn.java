@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class Conn {
 
     private static final String URL =
-     "jdbc:postgresql://localhost:5432/DBTP1";
+     "jdbc:postgresql://localhost:54321";
 
  private static final String USER = System.getenv("DB_USER");
 private static final String PASSWORD = System.getenv("DB_PASSWORD");
